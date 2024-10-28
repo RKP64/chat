@@ -5,7 +5,7 @@ echo "###           ⚠️  Caution: A Whole New World with v2.x Awaits!  ⚠️
 echo "###                                                                      ###"
 echo "###  🚨 v2.x is NOT compatible with any older versions like v1.x or below. 🚨  ###"
 echo "###  You must read the migration guide carefully before proceeding:       ###"
-echo "###  https://github.com/aws-samples/bedrock-claude-chat/blob/v2/docs/migration/V1_TO_V2.md  ###"
+echo "###   ###"
 echo "###                                                                      ###"
 echo "###  This isn't just a regular upgrade. Data preservation requires        ###"
 echo "###  following specific steps, or you may risk CUSTOMIZED BOT LOSS.      ###"
@@ -39,7 +39,7 @@ IPV4_RANGES=""
 IPV6_RANGES=""
 DISABLE_IPV6="false"
 ALLOWED_SIGN_UP_EMAIL_DOMAINS=""
-BEDROCK_REGION="us-east-1"
+BEDROCK_REGION="ap-south-1"
 VERSION="v2"
 
 # Parse command-line arguments for customization
